@@ -1,0 +1,23 @@
+<div class="containerr">
+  <div class="containerr">
+    <div class="row">
+      <div class="card" *ngFor="let movie of image" style="width: 18rem;">
+        <div class="row">
+          <div class="col-md-12 spacer">
+            <img src="https://image.tmdb.org/t/p/w500{{ movie.poster_path }}" class="card-img-top" alt="..."
+              style="width: 100px height=100px;" />
+            <div class="card-body">
+              <h6 class="card-title">Movie : {{ movie.title }}</h6>
+              <h6 class="card-title">Rating : {{ movie.popularity }}</h6>
+              <h6 class="card-title">
+                Release date : {{ movie.release_date }}
+              </h6>
+              <h6>Overview :</h6>
+              <p class="card-text">{{ movie.overview }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
