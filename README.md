@@ -1,27 +1,30 @@
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+Starter Code:
+To generate the starter code, follow the steps given below
 
-## Development server
+To create a new application,
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Open your ubuntu or cmd terminal and execute the following command
+* ng new app-name
+* for example, ng new super-wars
+* To create a new component, execute the command
+* ng generate component component-name
+example, ng generate component contacts
 
-## Code scaffolding
+How to run:
+To run the project go to your ubuntu terminal or VScode editor
+open the ubuntu or cmd terminal or inside the vscode editor
+run the command following command
+* ng serve --open or ng serve -o
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+About The Movie review web application:
+  *   The Movie Review web Application is used to see the movies in the portal. we can also bookmark the movie. the bookmarjed movies are stored in our dadhboard.
+Steps to built project:
+*   Here i am used the bootstrap for css framework  for navigation bar
+*   displays all movies results as a list of cards. The list should contain basic information like Movie image, Movie Name, Year, Rating and a few
+    more details.
+*   Here i am used themoviedb API for querying movie results.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*   here we can see the popular movies and now playing movies
